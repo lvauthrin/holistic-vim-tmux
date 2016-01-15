@@ -59,6 +59,7 @@ set colorcolumn=0  " margin nag
   " hi TabLine ctermfg=248 ctermbg=234
   " hi TabLineSel cterm=NONE ctermbg=237 ctermfg=192
 
-colorscheme github
-  " hi CursorLine cterm=NONE ctermbg=015
-  hi Normal ctermbg=015
+colorscheme molokai
+  hi Normal ctermbg=Black
+  highlight Cursorline cterm=underline ctermbg=NONE
+

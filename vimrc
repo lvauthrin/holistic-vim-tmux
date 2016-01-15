@@ -7,11 +7,15 @@
 "   au VimEnter,WinEnter,BufWinEnter * setlocal cursorline
 "   au WinLeave * setlocal nocursorline
 " augroup END
-set nocursorline
+
+" re-enable cursorline as an underline
+"set nocursorline
+set cursorline
+
 "
 set number
 
-set mouse=a
+set mouse=v
 set ttymouse=xterm2
 
 set ai nolist nowrapscan ignorecase wrap
@@ -124,3 +128,4 @@ autocmd QuickFixCmdPost    l* nested lwindow
 source ~/.vim/vimrc.plugins
 source ~/.vim/vimrc.keymap
 source ~/.vim/vimrc.colors
+
