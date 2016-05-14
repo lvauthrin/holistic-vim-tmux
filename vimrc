@@ -17,6 +17,7 @@ set number
 
 set mouse=v
 set ttymouse=xterm2
+set clipboard=unnamed
 
 set ai nolist nowrapscan ignorecase wrap
 set softtabstop=2 tabstop=2 expandtab shiftwidth=2
